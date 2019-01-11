@@ -1,5 +1,5 @@
 # zig-redismodule
-Redis modules for Zig
+Redis modules for Zig 
 
 
 ## Abstract
@@ -8,6 +8,8 @@ It was created using `zig translate-c` and it was lightly edited to fix a transl
 It also includes a workaround for a linker bug in macOS Mojave.
 
 In `module.zig` you can find a sample module that makes use of `redismodule.zig`.
+
+This all was done using Zig 0.3.0 and Redis 5.0
 
 ## Building 
 
